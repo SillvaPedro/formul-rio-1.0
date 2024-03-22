@@ -118,13 +118,6 @@ input {
 	transform: translateX(100%);
 }
 
-.sign-up-container {
-	left: 0;
-	width: 50%;
-	opacity: 0;
-	z-index: 1;
-}
-
 .container.right-panel-active .sign-up-container {
 	transform: translateX(100%);
 	opacity: 1;
@@ -209,20 +202,4 @@ input {
 
 .container.right-panel-active .overlay-right {
 	transform: translateX(20%);
-}
-
-.social-container {
-	margin: 8px 0;
-}
-
-.social-container a {
-	border: 2px solid black;
-	border-radius: 50%;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 3px;
-	height: 40px;
-	width: 40px;
-	background: white;
 }
