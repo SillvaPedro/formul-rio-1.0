@@ -23,7 +23,7 @@ a {
 .login{
 	display: flex;
 	flex-direction: column;
-	background-color: #181920;
+	background-color: #03254c;
 	border-radius: 20px;
 	align-items: center;
 	width: 355px;
@@ -72,4 +72,8 @@ form [type="submit"]{
 	line-height: 40px;
 	text-transform: uppercase;
 	text-transform: none;
+}
+
+.cliente {
+	color: white;
 }
